@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Button } from "antd";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="launch-container">
+      <div className="regreen-logo-container">
+        <img
+          src="/images/regreen-logo-image.png"
+          alt="regreen_logo"
+          className="regreen-logo"
+        />
+      </div>
+      <div className="launch-image-container">
+        <img
+          src="/images/launch-image.png"
+          alt="launch_image"
+          className="launch-image"
+        />
+      </div>
+      <a
+        href="https://web-sigma-liart.vercel.app"
+        target="_blank"
+        rel="noreferrer"
+        className="launch-anchor"
+      >
+        <Button className="launch-website-button">Launch Website</Button>
+      </a>
     </div>
   );
 }
