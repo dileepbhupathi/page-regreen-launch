@@ -5,7 +5,7 @@
   align-items: center;
   gap: 2.893518518518518vw;
   padding-top: 4.513888888888888vw;
-  padding-bottom: 3.5300925925925926vw;
+  padding-bottom: 2vw;
 }
 
 
@@ -13,8 +13,7 @@
   width: 100%;
 }
 .launch-image-container{
-  min-width: 34.60648148148148vw;
-  min-height: 32.638888888888886vw;
+  width: 23.148148148148145vw;
 }
 .launch-image{
   width: 100%;

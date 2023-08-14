@@ -20,7 +20,7 @@ function App() {
         />
       </div>
       <a
-        href="https://web-sigma-liart.vercel.app"
+        href="http://regreen.co.in/"
         target="_blank"
         rel="noreferrer"
         className="launch-anchor"
